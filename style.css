@@ -1,0 +1,32 @@
+/*Setting the font for the whole page*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Styling the label*/
+.displayValue{
+  display: block;
+  text-align: center;
+  font-size: 70px;
+}
+
+/*Aligning buttons to the center*/
+.btnContainer{
+  text-align: center;
+}
+
+/*Styling the buttons*/
+.btn{
+  padding: 10px 20px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(17, 145, 204);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.btn:hover{
+  background-color: rgb(12, 67, 92);
+}
